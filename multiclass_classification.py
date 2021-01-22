@@ -8,7 +8,7 @@ import numpy as np
 import keras
 
 
-data = pd.DataFrame(pd.read_csv('data.csv'))
+data = pd.DataFrame(pd.read_csv('multiclass_data.csv'))
 X = data[['acousticness', 'danceability', 'energy', 'valence', 'instrumentalness', 'loudness', 'tempo']]
 Y = data['popularity']
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2, random_state=420, shuffle=True)
