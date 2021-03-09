@@ -2,7 +2,7 @@
   <h3 align="center">Spotify Popularity Prediction</h3>
 
   <p align="center">
-    A university project for the module <i>Data to Knowledge: AI-based scientific processes of knowledge generation</i>
+    A university project for the module <i>Data to Knowledge: AI-based scientific processes of knowledge generation</i>.
   </p>
 </p>
 
